@@ -1,41 +1,27 @@
-### FedEx Rate Estimator
+# FedEx Rate Estimator — Frappe Developer Assignment
 
-Frappe app to fetch FedEx shipping rates
-
-### Installation
-
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
-
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app fedex_rate_estimator
-```
-
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/fedex_rate_estimator
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
-
-### CI
-
-This app can use GitHub Actions for CI. The following workflows are configured:
-
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
+This Frappe app allows logged-in users to input a **dispatch** and **shipping address**, fetch **FedEx shipping rates** using the FedEx Rate API, and display the rates in both a **custom page** and a **Delivery Note dialog**.
 
 
-### License
+##  Features
 
-mit
+- Custom Desk Web Page at `/shipment-rate-checker`
+- Integration with FedEx Rate API
+- Delivery Note Button to fetch and display rates
+- Bootstrap classes like form-control, form-group, btn, card, etc.
+- Two-column responsive layout with spacing and sections
+- Uses `frappe.call()` to connect frontend with backend
+
+
+
+## Setup Instructions
+
+### 1. Install App
+
+cd ~/frappe-bench
+bench get-app fedex_rate_estimator https://github.com/Muhsina-V-P/fedex-rate-estimator.git
+bench --site your-site-name install-app fedex_rate_estimator
+
+
+
+
