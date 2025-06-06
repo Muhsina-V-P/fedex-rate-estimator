@@ -24,10 +24,23 @@ bench get-app fedex_rate_estimator https://github.com/Muhsina-V-P/fedex-rate-est
 
 bench --site your-site-name install-app fedex_rate_estimator
 
+bench get-app erpnext --branch version-15
+
+bench --site your-site-name install-app erpnext
+
+**Custom Page**
 ![Screenshot from 2025-06-06 15-34-26](https://github.com/user-attachments/assets/3223ed29-3764-40f4-b45d-23dcab6007ea)
+
+**Fetching Rates in Custom Page**
 ![Screenshot from 2025-06-06 15-35-47](https://github.com/user-attachments/assets/2ce4f37c-fabf-435f-84a3-d425a74c21f4)
+
+**Custom Button in Delivery Note**
 ![Screenshot from 2025-06-06 15-40-11](https://github.com/user-attachments/assets/2b34dbd5-b857-4622-99c9-b9671bb38f81)
+
+**Dialog in Delivery Note**
 ![Screenshot from 2025-06-06 15-40-23](https://github.com/user-attachments/assets/281cd51c-9e5c-47e4-8cbd-7ee557861f41)
+
+**Rate Fetching in Delivery Note**
 ![Screenshot from 2025-06-06 15-40-32](https://github.com/user-attachments/assets/fdd0525a-2895-4a16-b2ba-732745773aa3)
 
 
