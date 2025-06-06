@@ -64,6 +64,18 @@ app_license = "mit"
 # 	"Role": "home_page"
 # }
 
+
+
+fixture = [
+    {
+        'doctype' : 'Web Page',
+        'filters' : {
+            'name' : ['in', ['Shipment Rate Checker']]
+        }
+    }
+]
+
+
 # Generators
 # ----------
 
