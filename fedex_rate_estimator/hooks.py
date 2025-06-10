@@ -69,15 +69,8 @@ doctype_js = {
 # }
 
 
+fixtures = ["Web Page"]
 
-fixture = [
-    {
-        'doctype' : 'Web Page',
-        'filters' : {
-            'name' : ['in', ['Shipment Rate Checker']]
-        }
-    }
-]
 
 
 # Generators
